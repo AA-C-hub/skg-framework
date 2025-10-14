@@ -59,11 +59,11 @@ TABLE OF CONTENTS
 
     --color-light-blue: hsl(201, 52%, 84%);
 
-    --color-pink: hsl(322, 100%, 88%);
-    --color-pink-50: hsl(324, 71%, 99%);
-    --color-pink-100: hsl(322, 100%, 95%);
-    --color-pink-400: hsl(322, 100%, 90%);
-    --color-pink-900: hsl(322, 100%, 80%);
+    --color-pink: #C1006F;
+    --color-pink-50: hsl(340, 80%, 95%);
+    --color-pink-100: hsl(340, 80%, 90%);
+    --color-pink-400: hsl(340, 80%, 70%);
+    --color-pink-900: hsl(340, 80%, 40%);
 
     --color-purple: hsl(262, 35%, 50%);
     --color-purple-100: hsl(262, 35%, 60%);
@@ -662,3 +662,4 @@ body > *{
 .delay-2{ animation-delay: .2s;}
 .delay-3{ animation-delay: .3s;}
 .delay-4{ animation-delay: .4s;}
+
