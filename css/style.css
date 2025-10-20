@@ -29,6 +29,7 @@ TABLE OF CONTENTS
     # BUTTONS
     # HR (HORIZONTAL RULES)
     # CODE BLOCKS
+    # SWIPER SLIDER CAROUSEL
 
 # ANIMATION
     # SMOOTH SCROLLING
@@ -538,6 +539,23 @@ pre:has(code){
     border-radius: var(--border-radius);
 }
 
+/* SWIPER CSS CODING */
+.swiper{
+    margin-inline: 4rem;
+    padding-block-end: 2rem;
+    margin-inline: 4rem;
+}
+
+
+/* MOVE SWIPER ARROWS OUTSIDE OF SWIPER */
+.swiper-button-prev,
+.swiper-button-next{
+    background-color: var(--color-white);
+    padding: var(--unit-s);
+    border-radius: 100%;
+}
+
+
 /* CUSTOM SITE STYLING */
 
 /* PUSH THE FOOTER TO THE BOTTOM BY DEFAULT */
@@ -711,29 +729,3 @@ section:has(observe-me){
 
 
 
-
-
-
-
-
-/* FOLDER TABS */
-.folder-tabs {
-    display: flex;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .folder-tabs div ul li a{
-    padding: 10px 15px;
-    background: #eee;
-    border: 1px solid #ccc;
-    border-bottom: none;
-    margin-right: 5px;
-    border-radius: 8px 8px 0 0;
-    cursor: pointer;
-  }
-  
-  .folder-tabs div:hover {
-    background: white;
-    font-weight: bold;
-    border-bottom: 2px solid white;
-  }

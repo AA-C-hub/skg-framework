@@ -7,6 +7,9 @@
     <title>Small Kine Gift - Framework</title>
     <meta name="description" content="A simple HTML CSS and JS starter base.">
 
+    <!-- SWIPER JS CSS PUT AT TOP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+
     <!--MAIN CSS-->
     <link rel="stylesheet" href="css/style.css">
     
@@ -20,14 +23,14 @@
     </div>
 
     <nav class="site-nav" data-menustate="closed">
-        <!-- <button class="menubutton">
+        <button class="menubutton">
             <span class="hide-visually">Menu</span>
             <svg class="simple-navicon" width="24" height="21">
                 <rect class="simple-navicon-top" x="0" y="2" height="3" width="30"></rect>
                 <rect class="simple-navicon-middle" x="0" y="9" height="3" width="30"></rect>
                 <rect class="simple-navicon-bottom" x="0" y="16" height="3" width="30"></rect>
             </svg>
-        </button> -->
+        </button>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="styleguide.html">Style Guide</a></li>
@@ -51,7 +54,7 @@
         <div class="container">
             <div class="row">
                 <div class="one-half">
-                    <img class="observe-me onscroll-slide-in-from-right" src="img/placeholder-2000x1000.gif" alt="placeholder" width="2000" height="1000">
+                    <img src="img/placeholder-2000x1000.gif" alt="placeholder" width="2000" height="1000">
                 </div>
                 <div class="one-half">
                     <h1>Image on the left, text on the right.</h1>
@@ -61,7 +64,7 @@
         
             <div class="row swapped">
                 <div class="one-half">
-                    <img class="observe-me onscroll-slide-in-from-left" src="img/placeholder-2000x1000.gif" alt="placeholder" width="2000" height="1000">
+                    <img src="img/placeholder-2000x1000.gif" alt="placeholder" width="2000" height="1000">
                 </div>
                 <div class="one-half">
                     <h1>Text on the left, image on the right.</h1>
@@ -96,6 +99,9 @@
     
 
 </main>
+
+        <!-- SWIPER JS PUT AT THE BOTTOM -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
         <!--MAIN JS-->
         <script src="js/script.js"></script>
